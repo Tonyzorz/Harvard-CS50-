@@ -15,36 +15,42 @@ I simply want to share what I have solved.
 ### Index
 
 1. C (Week 1)
-    * Hello
-    * Mario(less)
-    * Mario(more)
-    * Cash
-    * Credit
-    * Lecture notes
-    * Quiz 1
+  Problem sets
+    * [Hello](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Hello)
+    * [Mario(less)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/less)
+    * [Mario(more)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/lmore)
+    * [Cash](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Cash)
+    * [Credit](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Credit)
+  Lecture notes
+  Quiz 1
 2. Arrays (Week 2)
-    * Readability
-    * Caesar
+  Problem sets
+    * [Readability](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset2/Readability)
+    * [Caesar](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset2/Caesar)
     * Substitution
-    * Lecture notes
-    * Quiz 2
+  Lecture notes
+  Quiz 2
 3. Algorithms (Week 3)
+  Problem sets
     * Plurality
     * Runoff
     * Tideman
-    * Lecture notes
-    * Quiz 3
+  Lecture notes
+  Quiz 3
 4. Memory (Week 4)
+  Problem sets
     * Filter(less)
     * Filter(more)
     * Recover
-    * Lecture notes
-    * Quiz 4
+  Lecture notes
+  Quiz 4
 5. Data Structures (Week 5)
+  Problem sets
     * Speller
-    * Lecture notes
-    * Quiz 5
+  Lecture notes
+  Quiz 5
 6. Python (Week 6)
+  Problem sets
     * Hello
     * Mario(less)
     * Mario(more)
@@ -52,13 +58,14 @@ I simply want to share what I have solved.
     * Credit
     * Readability
     * DNA
-    * Lecture notes
-    * Quiz 6
+  Lecture notes
+  Quiz 6
 7. SQL
+  Problem sets
     * Movies
     * Houses
-    * Lecture notes
-    * Quiz 7
+  Lecture notes
+  Quiz 7
 8. Information 
 
 
