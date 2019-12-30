@@ -15,14 +15,14 @@ I simply want to share what I have solved.
 ### Index
 
 1. C (Week 1)
-  Problem sets
+  a. Problem sets
     * [Hello](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Hello)
     * [Mario(less)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/less)
     * [Mario(more)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/lmore)
     * [Cash](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Cash)
     * [Credit](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Credit)
-  Lecture notes
-  Quiz 1
+  b. Lecture notes
+  c. Quiz 1
 2. Arrays (Week 2)
   Problem sets
     * [Readability](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset2/Readability)
