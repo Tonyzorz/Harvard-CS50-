@@ -14,42 +14,42 @@ I simply want to share what I have solved.
 
 ### Index
 
-1. C (Week 1)
-  a. Problem sets
+1. C (Week 1)<br>
+  Problem sets
     * [Hello](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Hello)
     * [Mario(less)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/less)
     * [Mario(more)](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Mario/lmore)
     * [Cash](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Cash)
-    * [Credit](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Credit)
-  b. Lecture notes
-  c. Quiz 1
-2. Arrays (Week 2)
+    * [Credit](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset1/Credit)<br>
+  Lecture notes<br>
+  Quiz 1
+2. Arrays (Week 2)<br>
   Problem sets
     * [Readability](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset2/Readability)
     * [Caesar](https://github.com/Tonyzorz/Harvard_CS50/tree/master/pset2/Caesar)
-    * Substitution
-  Lecture notes
+    * Substitution<br>
+  Lecture notes<br>
   Quiz 2
-3. Algorithms (Week 3)
+3. Algorithms (Week 3)<br>
   Problem sets
     * Plurality
     * Runoff
     * Tideman
   Lecture notes
   Quiz 3
-4. Memory (Week 4)
+4. Memory (Week 4)<br>
   Problem sets
     * Filter(less)
     * Filter(more)
-    * Recover
-  Lecture notes
+    * Recover<br>
+  Lecture notes<br>
   Quiz 4
-5. Data Structures (Week 5)
+5. Data Structures (Week 5)<br>
   Problem sets
-    * Speller
-  Lecture notes
+    * Speller<br>
+  Lecture notes<br>
   Quiz 5
-6. Python (Week 6)
+6. Python (Week 6)<br>
   Problem sets
     * Hello
     * Mario(less)
@@ -57,15 +57,15 @@ I simply want to share what I have solved.
     * Cash
     * Credit
     * Readability
-    * DNA
-  Lecture notes
+    * DNA<br>
+  Lecture notes<br>
   Quiz 6
-7. SQL
+7. SQL<br>
   Problem sets
     * Movies
-    * Houses
-  Lecture notes
+    * Houses<br>
+  Lecture notes<br>
   Quiz 7
-8. Information 
+8. Information <br>
 
 
