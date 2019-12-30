@@ -9,7 +9,7 @@ I simply want to share what I have solved.
 
 ## Links
 
-[CS50 Harvard lectures](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) - Can be viewed on youtube
+[CS50 Harvard lectures](https://www.youtube.com/playlist?list=PLhQjrBD2T381L3iZyDTxRwOBuUt6m1FnW) - Can be viewed on youtube \n
 [Problem Sets](https://cs50.harvard.edu/college/) - Problem sets can be accessed here and should be solved along with the video
 
 ### Index
