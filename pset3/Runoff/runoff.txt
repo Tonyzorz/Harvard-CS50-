@@ -1,0 +1,118 @@
+max voters and candidates
+#define MAX_VOTERS 100
+#define MAX_CANDIDATES 9
+
+preferences[i][j] is jth preference for voter i
+
+candidates have name, vote count, eliminate status
+
+// Array of candidates
+
+// Numbers of voters and candidates
+
+// Function prototypes
+bool vote(int voter, int rank, string name);
+void tabulate(void);
+bool print_winner(void);
+int find_min(void);
+bool is_tie(int min);
+void eliminate(int min);
+
+    // Check for invalid usage
+        printf("Usage: runoff [candidate ...]\n");
+
+    // Populate array of candidates
+	//if candidate count exceeds max candidate
+        printf("Maximum number of candidates is %i\n", MAX_CANDIDATES);
+
+	//receive number fo votes
+	//if voter count exceeds max voters, 
+        printf("Maximum number of voters is %i\n", MAX_VOTERS);
+
+    // Keep querying for votes
+        // Query for each rank
+            // Record vote, unless it's invalid
+                printf("Invalid vote.\n");
+
+    // Keep holding runoffs until winner exists
+        // Calculate votes given remaining candidates
+        // Check if election has been won
+        // Eliminate last-place candidates
+        // If tie, everyone wins
+        // Eliminate anyone with minimum number of votes
+        // Reset vote counts back to zero
+
+// Record preference if vote is valid
+bool vote(int voter, int rank, string name)
+{
+    // TODO
+    //Look for a candidate called name,
+    //if candidate found, update preferences so that they are the voter's
+    //rank preference and return true.
+
+    //if no candidate found, dont update and return false
+    return false;
+}
+
+// Tabulate votes for non-eliminated candidates
+void tabulate(void)
+{
+    //update vote counts for all non-eliminated candidates
+
+    //recall that each voter votes for their heighest preference
+    //candidate who has not yet been eliminated.
+
+    //only update vote who are still in the race
+    // TODO
+    return;
+}
+
+// Print the winner of the election, if there is one
+bool print_winner(void)
+{
+    //if any candidate has more ethan half the vote, print out their
+    //their name and return true
+
+    //if nobody has won the election yet, return false
+    // TODO
+    return false;
+}
+
+// Return the minimum number of votes any remaining candidate has
+int find_min(void)
+{
+    //return the minimum number of votes of anyone still in the elction.
+
+    //return candidates who has not been eliminated
+    // TODO
+    return 0;
+}
+
+// Return true if the election is tied between all candidates, false otherwise
+bool is_tie(int min)
+{
+    //accepts the minimum number of votes min as input.
+
+    //returns true if the election is tied between all remaining candidates
+    //, and return false otherwise.
+    // TODO
+    return false;
+}
+
+// Eliminate the candidate (or candidiates) in last place
+void eliminate(int min)
+{
+    //eliminate anyone still in the race who has the min number of votes
+
+    //if votes are the same, should eliminate two candidates
+    // TODO
+    return;
+}
+
+
+
+
+
+
+
+
