@@ -1,0 +1,39 @@
+tideman method of voting
+
+
+tally - once voters have indicated preferences, determine winner for each pair of candidates
+
+sort - sort pairs of candidates in decreasing strength of victory
+
+lock - starting with strongest pair, 'lock in' each pair to candidate graph as long as no cycles. 
+
+winner of election is the source of the graph 
+
+candidates - array of candidate names
+preferences - 2d array
+	  - preferences[i][j] is number of ovters who prefer candidate i over candidate j
+
+pairs - array of all pairs where one candidate is preferred above another
+
+locked - 2d boolean array representing candidate graph
+	- locked[i][j] means we have locke din the edge pointing from candidate i to candidate j.
+
+functions
+
+bool vote(int rank, string name, int ranks[])
+	- look for a candidate called name
+	- if candidate found, update ranks and return true. ranks[i] is the voter's ith preference.
+	- if no candidate found, dont update any ranks and return false.
+void record_preferences(int ranks[])
+	- update the preferences array based on the current voter's rank
+void add_pairs()
+	- add each pair of candidates to pairs array if one candidate is preferred over the other.
+	- udpate global variable pair_count to be the total number of pairs
+void sort_pairs()
+	- 
+void lock_pairs()
+	- update locked to create the locked graph by adding all edges in decreasing order of vicotry strength, as long as there is no cycle
+
+void print_winner()
+	-print out the winner of the election, who will be the source of the graph
+	- you may assume there may be no more than one source.
