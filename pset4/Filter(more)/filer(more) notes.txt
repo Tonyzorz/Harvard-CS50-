@@ -1,0 +1,7 @@
+edges
+for each pixel
+	compute gx and gy for each channel of red, green and blue
+		for pixels at the border, treat any pixel past the border as having all 0 values.
+	
+	compute each new channel value as the square root of gx^2 + gy^2
+		cap the number at 255
