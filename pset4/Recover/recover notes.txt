@@ -1,0 +1,48 @@
+JPEGs
+	Each JPEG starts with a distinct header
+		First Three bytes: 0xff 0xd8 0xff
+		Last byte: 0xe0, ~ 0xef
+	JPEGs stored back to back in memory card
+	Each blok is 512 bytes
+
+Read Files
+	fread(data, size, number, inptr);
+	data - pointer to where to store data you are reading
+	size - size of each element ot read
+	number - number of elements to read
+	inptr - file * to read from 
+
+	returns number of items of size size were read
+buffer[0] == 0xff?
+
+
+buffer[3] == 0xe0 ~ 0xef
+(buffer[3] & 0xf0) == 0xe0
+
+Making a new jpeg
+	Filenames: ###.jpg, starting at 000.jpg
+	keep track of how many jpg files found
+	sprintf(filename, "%03i.jpg", 2);
+	File *img = fopen(filename, "w");
+
+Writing files
+	fwrite(data, size, number, outprt);
+	data - pointer to bytes that will be writen to file
+	size - size of each element to write
+	number - number ofo elements to write
+	outptr - FILE * to write to 
+
+pseduocode
+
+open memory card
+Repeat until end of card:
+	Read 512 bytes into a buffer
+	If start of new JPEG
+		if first JPEG
+		  ...
+		Else
+		  ...
+	Else
+		if already found JPEG
+		  ...
+Close any remaining files
